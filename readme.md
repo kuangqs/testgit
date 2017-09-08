@@ -73,7 +73,7 @@ build_cmbc.sh -e [dev|uat|ywcs|qa1|qa2|qa3|prod|...] -p [we|exchange|pay|user] -
 
 ## 3.1 新代码调整(8.31前完成)
 
-* 前端（we_frontendx） 王程
+* 前端
 
 ```
 现状： 
@@ -81,10 +81,10 @@ build_cmbc.sh -e [dev|uat|ywcs|qa1|qa2|qa3|prod|...] -p [we|exchange|pay|user] -
 已经集成到jenkins，但是对jenkins依赖严重，没有写成单独的构建脚本；
 ```
 
-* 交易所、对账、账户中心等（we_services） 武景畔
-* 基金（we_rsps） 李庆 刘传东
-* 引擎（we_ruleengine） 路宗威
-* 搜索（we_search）、消息中心（we_messagecenter） 周寰
+* 交易所、对账、账户中心等
+* 基金
+* 引擎
+* 搜索、消息中心
 
 ```
 现状：
@@ -103,7 +103,7 @@ we_search&we_messagecenter：
 
 ## 3.2 老代码改造(9.15前完成)
 
-* 主站、mobile（we_renrendai4） 路宗威 刘传慧
+* 主站、mobile
 
 ```
 现状：
